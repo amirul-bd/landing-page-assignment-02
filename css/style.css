@@ -1,0 +1,62 @@
+*body{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 16;
+    color: #3E3E3E;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 500;
+}
+h2{
+    font-weight: 500;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-weight: 700;
+    font-size:36px;
+}
+h4{
+    font-weight: bold;
+    font-size: 24;
+}
+.text-yellow{
+    color: #FABE4C
+}
+.logo{
+    width: 28%;
+}
+.bg-header{
+    background-color: #FFFBF0;
+}
+.rounded{
+    border-radius: 20px !important;
+}
+.buy-button{
+    background-color: #A4BC46;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 10px;
+}
+.penguins-section{
+    padding-bottom: 100px !important;
+}
+.shadow{
+    box-shadow: 0 5px 10px 5px #f1efef !important;
+}
+/* Responsive part */
+@media (max-width: 668px){
+    .logo{
+        width: 50%;
+    }
+    .fit-section{
+        text-align: center;
+    }
+    .custom-quary img{
+        width: 20% !important;
+    }
+
+}
